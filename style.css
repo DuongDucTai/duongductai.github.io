@@ -62,6 +62,36 @@ nav ul li a {
     color: white;
 }
 
+/* Bộ sưu tập hình ảnh */
+.gallery {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 22%;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.1);
+}
+
+/* Sản phẩm */
 .products {
     text-align: center;
     padding: 50px 20px;
